@@ -1,0 +1,54 @@
+/********************************************************************************************************/
+Network Applications Programming ‐ Homework 4
+UDP‐based FTP service
+
+use	the	UDP	sendto() and recvfrom() system calls to transfer	
+a file from	a UDP client  to a UDP server
+
+To	create	the	datagram dropping environment, when your server receives a UDP datagram, you server	
+can	intentionally drop it (acts	as	if	the	datagram were not received at all) based on	
+a probability using	the	random() procedure.	You	have to	do fragmentation before	
+sending	the	file. The size of each fragment	is	set	to	1KB	(1024	bytes).	 	
+
+
+Your server should be aware of such dropping ONLY when it receives the“next”	
+datagram from the client. In other words, although the server intentionally	drops	
+a datagram,	it pretends	not	to know	such a behavior.
+
+Server  and	 Clients Need necessary messages to indicate the behaviors of datagram loss and retransmission
+
+/***Using UDP to “simulate” the reliability behavior of TCP***/
+
+Student ID : B013040033
+StarTime : 5/22 9:00 pm
+
+DeadLine : 5/27
+
+
+
+How To Run : 
+	Run Server it will wait Client data , then run Client to transmit File,
+
+Server open 7777 port
+
+How To Write:
+server and clients should show some necessary messagest 
+to indicate the behaviors of datagram loss and retransmission:
+
+	Server:
+		have printf("Before packet drop , FileSequence = %d\n",FileSequence) when know last loss
+
+	Client:
+		if(RecBuf.AckSequence < CliSequence)
+			printf("Occur at Server Know that before packet have loss\n");
+
+		//Problem : Server loss packet  at FileEnd
+		if(feof(FilePtr) && LastServerAckNumber < CliSequence)
+			End Check !! LastServerAckNumber
+
+
+
+
+
+
+/********************************************************************************************************/

@@ -1,0 +1,78 @@
+Network Applications Programming	‐	Homework 3
+(On‐line chatting service)
+Motivation:	 	
+You	have	learned	how	to	develop	iterative	&	concurrent	servers	in	class.	
+This	homewor	asks	you	to	develop	an	on‐line	chatting	service	
+(e.g.,	skype	or	the	passed	MSN)	by	using	a	concurrent	server	with	one	thread.	
+
+Student ID : B013040033
+
+HomeWork StartTime	4/27
+HomeWork DeadLine	5/06
+
+
+
+
+
+/*bind: a client may connect to any of my address*/
+/**INADDR_ANY就是指定地址为0.0.0.0的地址，这个地址事实上表示不确定地址，或“所有地址”、“任意地址”。 一般来说，在各个系统中均定义成为0值**/
+
+server_addr.sin_addr.s_addr = htonl(INADDR_ANY);
+
+果你的服务器有多个网卡（每个网卡上有不同的IP地址），而你的服务（不管是在udp端口上侦听，还是在tcp端口上侦听），出于某种原因：可能是你的服务器操作系统可能随时增减IP地址，也有可能是为了省去确定服务器上有什么网络端口（网卡）的麻烦 —— 可以要在调用bind()的时候，告诉操作系统：“我需要在 yyyy 端口上侦听，所有发送到服务器的这个端口，不管是哪个网卡/哪个IP地址接收到的数据，都是我处理的。”这时候，服务器程序则在0.0.0.0这个地址上进行侦听。
+
+
+struct in_addr sin_addr;
+
+struct in_addr { 
+    unsigned long s_addr;
+}
+
+SO IPaddr in IPV4 is in sin_addr.s_addr
+type is unsigned long
+
+this select use for to run table
+for (i = 0; i < FD_SETSIZE; ++i)
+	if (FD_ISSET (i, &read_fd_set))
+	/**have input **/
+
+	if (i == sock)/**master socket**/
+	{
+		/**Client have connected**/
+
+
+	}
+	else{
+		/**client_FD receive message or client end**/
+	}
+
+WTF Problem
+
+In Client 
+if ( !(host = gethostbyname(IPaddress)) ){
+		/**#include <stdio.h>
+		#include <errno.h>**/
+		perror("gethostbyname_error");
+	}
+inet_pton(AF_INET, host->h_addr, &server_addr4.sin_addr);
+
+if IPaddress is 192.168..... not "www.google.com"
+in other vm will connection refused
+
+
+man gethostbyname
+If name is an IPv4 or IPv6 address, no
+lookup  is  performed  and  gethostbyname() simply copies name into the
+h_name field and its struct in_addr equivalent into the  h_addr_list[0]
+field  of the returned hostent structure
+If name is an IPv4 or IPv6 address, no
+lookup  is  performed  and  gethostbyname() simply copies name into the
+h_name field and its struct in_addr equivalent into the  h_addr_list[0]
+field  of the returned hostent structure
+
+so host->h_addr -> 127.0.0.1
+
+reference:
+//http://blog.sina.com.cn/s/blog_6151984a0100etj1.html
+//http://www.yolinux.com/TUTORIALS/LinuxTutorialC++STL.html#LIST
+//http://www.gnu.org/software/libc/manual/html_node/Server-Example.html

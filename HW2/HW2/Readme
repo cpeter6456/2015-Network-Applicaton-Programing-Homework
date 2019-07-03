@@ -1,0 +1,36 @@
+THIS IS READMEFILE FOR NetApplicationPrograming HomeWork2
+(FTP program with Huffman coding)
+
+NSYSUCSE
+Student:B013040033
+
+This hw that me know very important thing
+
+type trans must be same (char vs unsigned char , this cost me a lot of time...)
+
+when file binary is error GHex can help you
+
+huf-table is named at -code-table.txt
+
+it have number of different char , Original filesize, huf table
+
+
+The variable huf , i use two years ago hw
+
+
+I use File_Info(struct of name,size,etc..) and trans it at first to server
+
+so server will know name and can treat it
+
+
+should myDQ.size()>0 , not > 8 => it will cause lost end char
+
+because it is work pre char  at next char input
+
+
+client's huf information(fre ,etc...) is in clientDebug.txt
+
+server's huf information(fre ,etc...) is in serverDebug.txt
+
+
+

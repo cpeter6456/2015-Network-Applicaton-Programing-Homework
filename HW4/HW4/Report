@@ -1,0 +1,62 @@
+/*******************************************************************************************/
+Network Applications Programming ‐ Homework 4
+UDP‐based FTP service
+
+
+To	create	the	datagram dropping environment, when your server receives a UDP datagram, you server	
+can	intentionally drop it (acts	as	if	the	datagram were not received at all) based on	
+a probability using	the	random() procedure.	You	have to	do fragmentation before	
+sending	the	file. The size of each fragment	is	set	to	1KB	(1024	bytes).	 	
+
+
+Your server should be aware of such dropping ONLY when it receives the“next”	
+datagram from the client. In other words, although the server intentionally	drops	
+a datagram,	it pretends	not	to know	such a behavior.
+
+Server  and	 Clients Need necessary messages to indicate the behaviors of datagram loss and retransmission
+/*******************************************************************************************/
+
+Report:
+
+	At First , I Think maybe can use Ack&Timer in client , if no ACK and timeout then Client retransmit
+But In HW ,it say use an acknowledgement solutionit and Server know loss when next come ,
+so not Client know at first And Client should think Server have receive "the packet drop in server" 
+at default !!!
+
+	This HW is use UDP like TCP , So  I think simple struct like Server is one rec one send , 
+and Client is one send one rec (not send all at one time), but if server not send when loss , 
+Client will wait untill forever.
+
+	So , implement it when packet come but drop it in server , and Server send "next packt(not Ack)" and 
+FileSequence not ++ , so Client think Server have receive at default !!! , then Client trans next
+When Server accept next packet , it will send Ack(with loss sequence) , then Client know Server loss
+Then Client retransmit loss packet
+
+	If not loss Server will send ACK(wilt accept packet sequence) , then Client receive and check 
+With Client's sequence and know , not loss at before and this packet had accept ,
+Then Client send Next packet
+
+
+Problem : 
+	Server loss packet  at FileEnd
+
+
+Solution :
+	 of Server loss packet at FileEnd packet
+CliEndCheck is only at Client fin , but know Server not
+(because Server's Ack sequence not enough,use LastServerAckNumber)
+
+if(fseek(FilePtr, (CliSequence-1)*DATA_BUF_SIZE , SEEK_SET) !=0 ){
+	perror("fseek3");exit(1);
+}
+
+CliEndCheck should be initionlize , or it will loop
+
+
+After Complete This HW , I think maybe I can let Client use LastServerAckNumber to check every IsAck == 1
+and if LastServerAckNumber != CliSequence , then Retransmit Packet(LastServerAckNumber+1)
+
+
+
+
+/*******************************************************************************************/

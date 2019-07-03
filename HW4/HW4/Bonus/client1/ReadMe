@@ -1,0 +1,14 @@
+
+/********************************************************************************************************/
+Network Applications Programming‐Homework 4
+
+BONUS:Concurrent TCP‐based FTP service
+
+One	FTP	server	and	two	FTP	clients	should	be	deployed.	
+One	client will upload a file while	another client will download a file
+
+
+
+
+
+/********************************************************************************************************/

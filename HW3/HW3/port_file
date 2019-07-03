@@ -1,0 +1,474 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      9940/cupsd      
+tcp        0      0 0.0.0.0:5678            0.0.0.0:*               LISTEN      11238/chat_server
+tcp        0      0 127.0.1.1:53            0.0.0.0:*               LISTEN      1697/dnsmasq    
+tcp        0      0 192.168.79.128:45294    163.28.130.34:80        TIME_WAIT   -               
+tcp        0      0 192.168.79.128:42392    74.125.203.189:443      TIME_WAIT   -               
+tcp        0      0 192.168.79.128:48619    163.28.130.53:443       TIME_WAIT   -               
+tcp        1      0 192.168.79.128:56110    209.20.75.76:80         CLOSE_WAIT  3114/plugin_host
+tcp6       0      0 ::1:631                 :::*                    LISTEN      9940/cupsd      
+tcp6       1      0 ::1:34277               ::1:631                 CLOSE_WAIT  1132/cups-browsed
+udp        0      0 127.0.1.1:53            0.0.0.0:*                           1697/dnsmasq    
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           1503/dhclient   
+udp        0      0 0.0.0.0:52296           0.0.0.0:*                           1503/dhclient   
+udp        0      0 0.0.0.0:631             0.0.0.0:*                           1132/cups-browsed
+udp        0      0 192.168.79.128:123      0.0.0.0:*                           2375/ntpd       
+udp        0      0 127.0.0.1:123           0.0.0.0:*                           2375/ntpd       
+udp        0      0 0.0.0.0:123             0.0.0.0:*                           2375/ntpd       
+udp        0      0 0.0.0.0:40066           0.0.0.0:*                           948/avahi-daemon: r
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           948/avahi-daemon: r
+udp6       0      0 fe80::20c:29ff:fe51:123 :::*                                2375/ntpd       
+udp6       0      0 ::1:123                 :::*                                2375/ntpd       
+udp6       0      0 :::123                  :::*                                2375/ntpd       
+udp6       0      0 :::5353                 :::*                                948/avahi-daemon: r
+udp6       0      0 :::43785                :::*                                948/avahi-daemon: r
+udp6       0      0 :::12615                :::*                                1503/dhclient   
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name    Path
+unix  2      [ ACC ]     STREAM     LISTENING     15293    2566/gnome-session  @/tmp/.ICE-unix/2566
+unix  2      [ ACC ]     STREAM     LISTENING     12292    1734/X              /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     15294    2566/gnome-session  /tmp/.ICE-unix/2566
+unix  2      [ ACC ]     STREAM     LISTENING     14107    2393/gnome-keyring- /run/user/1000/keyring-rzHQya/control
+unix  24     [ ]         DGRAM                    8992     646/rsyslogd        /dev/log
+unix  2      [ ACC ]     SEQPACKET  LISTENING     8224     470/systemd-udevd   /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     16301    2897/gvfsd-trash    @/dbus-vfs-daemon/socket-XZ8HMg0J
+unix  2      [ ACC ]     STREAM     LISTENING     12291    1734/X              @/tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     8999     793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     14525    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  2      [ ACC ]     STREAM     LISTENING     7813     1/init              @/com/ubuntu/upstart
+unix  2      [ ACC ]     STREAM     LISTENING     9577     948/avahi-daemon: r /var/run/avahi-daemon/socket
+unix  2      [ ACC ]     STREAM     LISTENING     14228    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  2      [ ACC ]     STREAM     LISTENING     14460    2393/gnome-keyring- /run/user/1000/keyring-rzHQya/gpg
+unix  2      [ ACC ]     STREAM     LISTENING     14376    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  2      [ ACC ]     STREAM     LISTENING     14469    2393/gnome-keyring- /run/user/1000/keyring-rzHQya/ssh
+unix  2      [ ACC ]     STREAM     LISTENING     14171    2396/init           @/com/ubuntu/upstart-session/1000/2396
+unix  2      [ ACC ]     STREAM     LISTENING     15267    2694/pulseaudio     /run/user/1000/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     16274    2882/gvfsd-burn     @/dbus-vfs-daemon/socket-q7uW0vDk
+unix  2      [ ACC ]     STREAM     LISTENING     9426     870/bluetoothd      /var/run/sdp
+unix  2      [ ACC ]     STREAM     LISTENING     26864    9940/cupsd          /var/run/cups/cups.sock
+unix  2      [ ACC ]     STREAM     LISTENING     14332    2393/gnome-keyring- /run/user/1000/keyring-rzHQya/pkcs11
+unix  2      [ ACC ]     STREAM     LISTENING     9726     1038/acpid          /var/run/acpid.socket
+unix  3      [ ]         STREAM     CONNECTED     15119    2682/indicator-appl 
+unix  3      [ ]         STREAM     CONNECTED     16881    3033/update-notifie 
+unix  3      [ ]         STREAM     CONNECTED     15018    2566/gnome-session  
+unix  3      [ ]         STREAM     CONNECTED     14501    2532/at-spi-bus-lau 
+unix  2      [ ]         DGRAM                    13942    2375/ntpd           
+unix  3      [ ]         STREAM     CONNECTED     15071    2640/indicator-keyb 
+unix  3      [ ]         STREAM     CONNECTED     16015    2801/nautilus       
+unix  3      [ ]         STREAM     CONNECTED     15618    2694/pulseaudio     
+unix  3      [ ]         STREAM     CONNECTED     15302    1734/X              @/tmp/.X11-unix/X0
+unix  2      [ ]         STREAM     CONNECTED     20325    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     12382    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     11194    1263/polkitd        
+unix  3      [ ]         STREAM     CONNECTED     16546    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  2      [ ]         DGRAM                    15476    2765/colord         
+unix  3      [ ]         STREAM     CONNECTED     20361    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16883    3033/update-notifie 
+unix  3      [ ]         STREAM     CONNECTED     14559    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15526    2705/evolution-sour 
+unix  3      [ ]         STREAM     CONNECTED     15945    2812/polkit-gnome-a 
+unix  3      [ ]         STREAM     CONNECTED     15029    2646/indicator-blue 
+unix  3      [ ]         STREAM     CONNECTED     14269    2469/upstart-event- 
+unix  3      [ ]         STREAM     CONNECTED     15304    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15123    2694/pulseaudio     
+unix  3      [ ]         STREAM     CONNECTED     16532    2787/compiz         
+unix  3      [ ]         STREAM     CONNECTED     14405    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16472    2818/vmtoolsd       
+unix  3      [ ]         STREAM     CONNECTED     15905    2813/nm-applet      
+unix  3      [ ]         STREAM     CONNECTED     15070    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     14535    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     8381     1/init              @/com/ubuntu/upstart
+unix  3      [ ]         STREAM     CONNECTED     16599    2787/compiz         
+unix  3      [ ]         STREAM     CONNECTED     15142    2662/indicator-prin 
+unix  3      [ ]         STREAM     CONNECTED     14613    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15961    2822/gvfs-udisks2-v 
+unix  3      [ ]         STREAM     CONNECTED     15306    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     9180     793/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     15098    2670/indicator-sess 
+unix  3      [ ]         STREAM     CONNECTED     13991    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     34217    11239/sudo          
+unix  3      [ ]         STREAM     CONNECTED     16467    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     14288    2393/gnome-keyring- 
+unix  3      [ ]         STREAM     CONNECTED     15110    2657/indicator-date 
+unix  3      [ ]         STREAM     CONNECTED     16991    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     9544     948/avahi-daemon: r 
+unix  3      [ ]         STREAM     CONNECTED     15962    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15619    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     15457    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     13204    1984/upowerd        
+unix  2      [ ]         DGRAM                    16035    2818/vmtoolsd       
+unix  3      [ ]         STREAM     CONNECTED     15901    2813/nm-applet      
+unix  3      [ ]         STREAM     CONNECTED     15705    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     14330    2393/gnome-keyring- 
+unix  3      [ ]         STREAM     CONNECTED     12156    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16466    2818/vmtoolsd       
+unix  3      [ ]         STREAM     CONNECTED     14623    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     15003    2642/indicator-mess 
+unix  3      [ ]         STREAM     CONNECTED     16814    2992/zeitgeist-daem 
+unix  3      [ ]         STREAM     CONNECTED     14959    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16600    2897/gvfsd-trash    @/dbus-vfs-daemon/socket-q3qebAsJ
+unix  3      [ ]         STREAM     CONNECTED     11029    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     30008    2897/gvfsd-trash    @/dbus-vfs-daemon/socket-CfnT2oXF
+unix  3      [ ]         STREAM     CONNECTED     14534    2516/ibus-ui-gtk3   
+unix  3      [ ]         STREAM     CONNECTED     15956    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15600    2765/colord         
+unix  3      [ ]         STREAM     CONNECTED     15911    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     15015    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14172    2396/init           
+unix  2      [ ]         STREAM     CONNECTED     15204    2662/indicator-prin 
+unix  3      [ ]         STREAM     CONNECTED     16302    2801/nautilus       
+unix  3      [ ]         STREAM     CONNECTED     11226    1307/whoopsie       
+unix  3      [ ]         STREAM     CONNECTED     16298    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16805    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     14528    2516/ibus-ui-gtk3   
+unix  2      [ ]         DGRAM                    9551     857/systemd-logind  
+unix  3      [ ]         STREAM     CONNECTED     14582    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     15906    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15982    2801/nautilus       
+unix  3      [ ]         STREAM     CONNECTED     15712    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15984    2813/nm-applet      
+unix  3      [ ]         STREAM     CONNECTED     15714    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     14173    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     28621    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     14552    2540/at-spi2-regist 
+unix  3      [ ]         STREAM     CONNECTED     16832    2999/zeitgeist-fts  
+unix  3      [ ]         STREAM     CONNECTED     14836    2570/unity-panel-se 
+unix  3      [ ]         STREAM     CONNECTED     16804    2992/zeitgeist-daem 
+unix  3      [ ]         STREAM     CONNECTED     15150    2662/indicator-prin 
+unix  3      [ ]         STREAM     CONNECTED     14711    2574/ibus-engine-si 
+unix  2      [ ]         DGRAM                    9719     1038/acpid          
+unix  3      [ ]         STREAM     CONNECTED     16701    2965/telepathy-indi 
+unix  3      [ ]         STREAM     CONNECTED     15973    2813/nm-applet      
+unix  3      [ ]         STREAM     CONNECTED     15709    1734/X              @/tmp/.X11-unix/X0
+unix  2      [ ]         STREAM     CONNECTED     16759    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     13200    1984/upowerd        
+unix  3      [ ]         STREAM     CONNECTED     15300    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     14531    2536/dbus-daemon    
+unix  3      [ ]         STREAM     CONNECTED     26876    9944/dbus           
+unix  3      [ ]         STREAM     CONNECTED     14312    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16275    2801/nautilus       
+unix  3      [ ]         STREAM     CONNECTED     9780     1098/kerneloops     
+unix  3      [ ]         STREAM     CONNECTED     16880    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     15074    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     15007    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     11227    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16694    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     15199    2662/indicator-prin 
+unix  3      [ ]         STREAM     CONNECTED     8200     463/upstart-udev-br 
+unix  3      [ ]         STREAM     CONNECTED     15265    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     9571     793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     30000    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     14237    2458/dbus-daemon    
+unix  3      [ ]         STREAM     CONNECTED     15988    2835/udisksd        
+unix  3      [ ]         STREAM     CONNECTED     15720    2787/compiz         
+unix  3      [ ]         STREAM     CONNECTED     14310    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     12381    1687/lightdm        
+unix  3      [ ]         STREAM     CONNECTED     14544    2516/ibus-ui-gtk3   
+unix  3      [ ]         STREAM     CONNECTED     16696    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     15066    2658/indicator-soun 
+unix  3      [ ]         STREAM     CONNECTED     15016    2650/indicator-powe 
+unix  2      [ ]         DGRAM                    17093    2787/compiz         
+unix  3      [ ]         STREAM     CONNECTED     14485    2515/ibus-dconf     
+unix  2      [ ]         STREAM     CONNECTED     29996    2897/gvfsd-trash    @/dbus-vfs-daemon/socket-or0DCqnK
+unix  2      [ ]         STREAM     CONNECTED     16764    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     16523    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16509    2787/compiz         
+unix  3      [ ]         STREAM     CONNECTED     9498     793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    9437     816/ModemManager    
+unix  3      [ ]         STREAM     CONNECTED     14321    2396/init           @/com/ubuntu/upstart-session/1000/2396
+unix  3      [ ]         STREAM     CONNECTED     26877    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     12167    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     18526    3864/gnome-terminal 
+unix  3      [ ]         STREAM     CONNECTED     16511    2787/compiz         
+unix  3      [ ]         STREAM     CONNECTED     14715    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     16174    2801/nautilus       
+unix  3      [ ]         STREAM     CONNECTED     14574    2545/bamfdaemon     
+unix  3      [ ]         STREAM     CONNECTED     15465    2694/pulseaudio     /run/user/1000/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     11112    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16698    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15912    2812/polkit-gnome-a 
+unix  3      [ ]         STREAM     CONNECTED     18512    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     16712    2974/mission-contro 
+unix  3      [ ]         STREAM     CONNECTED     12354    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     12155    1697/dnsmasq        
+unix  3      [ ]         STREAM     CONNECTED     15903    2813/nm-applet      
+unix  3      [ ]         STREAM     CONNECTED     15198    2662/indicator-prin 
+unix  3      [ ]         STREAM     CONNECTED     14311    2493/upstart-dbus-b 
+unix  3      [ ]         STREAM     CONNECTED     15099    2670/indicator-sess 
+unix  3      [ ]         STREAM     CONNECTED     16083    2813/nm-applet      
+unix  3      [ ]         STREAM     CONNECTED     9580     793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14486    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14615    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     18514    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16715    2974/mission-contro 
+unix  3      [ ]         STREAM     CONNECTED     15992    2560/hud-service    
+unix  3      [ ]         STREAM     CONNECTED     15721    2566/gnome-session  @/tmp/.ICE-unix/2566
+unix  3      [ ]         STREAM     CONNECTED     15278    2658/indicator-soun 
+unix  3      [ ]         STREAM     CONNECTED     14714    2574/ibus-engine-si 
+unix  3      [ ]         STREAM     CONNECTED     9570     857/systemd-logind  
+unix  3      [ ]         STREAM     CONNECTED     16798    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     9497     816/ModemManager    
+unix  3      [ ]         STREAM     CONNECTED     15021    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16512    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15823    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     16081    2850/gconfd-2       
+unix  3      [ ]         STREAM     CONNECTED     14621    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     16074    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16996    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15101    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  2      [ ]         STREAM     CONNECTED     20759    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     16721    2974/mission-contro 
+unix  3      [ ]         STREAM     CONNECTED     15073    2640/indicator-keyb 
+unix  3      [ ]         STREAM     CONNECTED     14570    2545/bamfdaemon     
+unix  3      [ ]         STREAM     CONNECTED     15284    2566/gnome-session  
+unix  3      [ ]         STREAM     CONNECTED     14274    2469/upstart-event- 
+unix  3      [ ]         STREAM     CONNECTED     16019    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     15286    2566/gnome-session  
+unix  3      [ ]         STREAM     CONNECTED     9421     870/bluetoothd      
+unix  3      [ ]         STREAM     CONNECTED     8215     1/init              @/com/ubuntu/upstart
+unix  3      [ ]         STREAM     CONNECTED     15019    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     15224    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14969    2555/unity-settings 
+unix  3      [ ]         STREAM     CONNECTED     14970    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16073    2868/gvfs-mtp-volum 
+unix  3      [ ]         STREAM     CONNECTED     14549    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     17127    3101/sublime_text   
+unix  3      [ ]         STREAM     CONNECTED     17143    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     14612    2518/ibus-x11       
+unix  3      [ ]         STREAM     CONNECTED     14331    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  2      [ ]         DGRAM                    12164    1697/dnsmasq        
+unix  3      [ ]         STREAM     CONNECTED     15004    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15208    2662/indicator-prin 
+unix  3      [ ]         STREAM     CONNECTED     14572    2545/bamfdaemon     
+unix  3      [ ]         STREAM     CONNECTED     16078    2560/hud-service    
+unix  3      [ ]         DGRAM                    8260     470/systemd-udevd   
+unix  3      [ ]         STREAM     CONNECTED     17142    3101/sublime_text   
+unix  3      [ ]         STREAM     CONNECTED     14453    2515/ibus-dconf     
+unix  3      [ ]         STREAM     CONNECTED     15006    2646/indicator-blue 
+unix  3      [ ]         STREAM     CONNECTED     13270    2025/rtkit-daemon   
+unix  2      [ ]         STREAM     CONNECTED     17477    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     18522    3864/gnome-terminal 
+unix  3      [ ]         STREAM     CONNECTED     9061     708/upstart-socket- 
+unix  3      [ ]         STREAM     CONNECTED     16502    2800/evolution-cale 
+unix  3      [ ]         STREAM     CONNECTED     15828    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     14320    2493/upstart-dbus-b 
+unix  3      [ ]         STREAM     CONNECTED     15210    2694/pulseaudio     
+unix  3      [ ]         STREAM     CONNECTED     11195    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14837    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16065    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     14622    2555/unity-settings 
+unix  3      [ ]         STREAM     CONNECTED     15060    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15946    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     14363    2477/ibus-daemon    
+unix  3      [ ]         STREAM     CONNECTED     15303    2728/notify-osd     
+unix  3      [ ]         STREAM     CONNECTED     12353    1307/whoopsie       
+unix  3      [ ]         STREAM     CONNECTED     16537    2897/gvfsd-trash    @/dbus-vfs-daemon/socket-m92Psmqm
+unix  3      [ ]         STREAM     CONNECTED     16879    3033/update-notifie 
+unix  2      [ ]         STREAM     CONNECTED     16538    2897/gvfsd-trash    @/dbus-vfs-daemon/socket-t7NK3NCE
+unix  3      [ ]         STREAM     CONNECTED     15120    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     12023    1687/lightdm        
+unix  3      [ ]         STREAM     CONNECTED     9422     793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15955    2812/polkit-gnome-a 
+unix  3      [ ]         STREAM     CONNECTED     15527    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     14372    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15072    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     15014    2650/indicator-powe 
+unix  3      [ ]         STREAM     CONNECTED     15305    2728/notify-osd     
+unix  3      [ ]         STREAM     CONNECTED     16473    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16882    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16545    2787/compiz         
+unix  3      [ ]         STREAM     CONNECTED     20360    5287/unity-webapps- 
+unix  3      [ ]         STREAM     CONNECTED     16525    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     14558    2476/window-stack-b 
+unix  2      [ ]         DGRAM                    14120    2395/ntpd           
+unix  3      [ ]         STREAM     CONNECTED     12166    1740/accounts-daemo 
+unix  2      [ ]         DGRAM                    9542     948/avahi-daemon: r 
+unix  3      [ ]         STREAM     CONNECTED     15103    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15065    2658/indicator-soun 
+unix  3      [ ]         STREAM     CONNECTED     13990    1959/lightdm        
+unix  2      [ ]         DGRAM                    34219    11239/sudo          
+unix  2      [ ]         DGRAM                    15960    1263/polkitd        
+unix  3      [ ]         STREAM     CONNECTED     15708    2560/hud-service    
+unix  2      [ ]         DGRAM                    34194    11237/sudo          
+unix  3      [ ]         STREAM     CONNECTED     16016    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15902    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     15676    2694/pulseaudio     
+unix  3      [ ]         STREAM     CONNECTED     18523    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     16470    2818/vmtoolsd       
+unix  3      [ ]         STREAM     CONNECTED     14550    2516/ibus-ui-gtk3   
+unix  3      [ ]         STREAM     CONNECTED     16884    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16707    2974/mission-contro 
+unix  3      [ ]         STREAM     CONNECTED     15149    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     15075    2640/indicator-keyb 
+unix  2      [ ]         DGRAM                    11230    1307/whoopsie       
+unix  3      [ ]         STREAM     CONNECTED     16995    2801/nautilus       
+unix  3      [ ]         STREAM     CONNECTED     16043    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15704    2787/compiz         
+unix  3      [ ]         STREAM     CONNECTED     14450    2515/ibus-dconf     
+unix  3      [ ]         STREAM     CONNECTED     14532    2536/dbus-daemon    
+unix  3      [ ]         STREAM     CONNECTED     13843    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     18527    3872/gnome-pty-help 
+unix  3      [ ]         STREAM     CONNECTED     14502    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  2      [ ]         STREAM     CONNECTED     34192    11237/sudo          
+unix  3      [ ]         STREAM     CONNECTED     14289    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     8370     560/upstart-file-br 
+unix  3      [ ]         STREAM     CONNECTED     16471    2566/gnome-session  @/tmp/.ICE-unix/2566
+unix  3      [ ]         STREAM     CONNECTED     16990    3055/deja-dup-monit 
+unix  3      [ ]         STREAM     CONNECTED     16566    2955/gvfsd-metadata 
+unix  3      [ ]         STREAM     CONNECTED     15114    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16815    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16567    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16054    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  2      [ ]         DGRAM                    13058    1959/lightdm        
+unix  3      [ ]         STREAM     CONNECTED     14404    2507/gvfsd-fuse     
+unix  3      [ ]         STREAM     CONNECTED     15904    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     15017    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     14620    2555/unity-settings 
+unix  3      [ ]         STREAM     CONNECTED     13205    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15677    2566/gnome-session  @/tmp/.ICE-unix/2566
+unix  3      [ ]         STREAM     CONNECTED     16833    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16303    2897/gvfsd-trash    @/dbus-vfs-daemon/socket-XZ8HMg0J
+unix  3      [ ]         STREAM     CONNECTED     16836    2999/zeitgeist-fts  
+unix  2      [ ]         DGRAM                    15937    2566/gnome-session  
+unix  3      [ ]         STREAM     CONNECTED     14547    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     14232    2396/init           
+unix  2      [ ]         DGRAM                    9415     870/bluetoothd      
+unix  3      [ ]         STREAM     CONNECTED     14575    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16042    2822/gvfs-udisks2-v 
+unix  3      [ ]         STREAM     CONNECTED     15601    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14236    2458/dbus-daemon    
+unix  3      [ ]         STREAM     CONNECTED     15287    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14875    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     11028    1170/NetworkManager 
+unix  3      [ ]         STREAM     CONNECTED     15983    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     15713    2787/compiz         
+unix  3      [ ]         STREAM     CONNECTED     15299    2728/notify-osd     
+unix  3      [ ]         STREAM     CONNECTED     14553    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16297    2897/gvfsd-trash    
+unix  3      [ ]         STREAM     CONNECTED     16837    3007/cat            
+unix  3      [ ]         STREAM     CONNECTED     15124    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14958    2555/unity-settings 
+unix  3      [ ]         STREAM     CONNECTED     11111    1170/NetworkManager 
+unix  3      [ ]         STREAM     CONNECTED     14614    2518/ibus-x11       
+unix  3      [ ]         STREAM     CONNECTED     15047    2566/gnome-session  
+unix  3      [ ]         STREAM     CONNECTED     14712    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15910    2812/polkit-gnome-a 
+unix  3      [ ]         STREAM     CONNECTED     15301    2728/notify-osd     
+unix  3      [ ]         STREAM     CONNECTED     9781     793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16276    2882/gvfsd-burn     @/dbus-vfs-daemon/socket-q7uW0vDk
+unix  3      [ ]         STREAM     CONNECTED     15102    2682/indicator-appl 
+unix  3      [ ]         STREAM     CONNECTED     16702    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15151    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16693    2965/telepathy-indi 
+unix  3      [ ]         STREAM     CONNECTED     13201    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14319    2494/upstart-dbus-b 
+unix  3      [ ]         STREAM     CONNECTED     15974    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15711    2560/hud-service    
+unix  3      [ ]         STREAM     CONNECTED     14323    2396/init           @/com/ubuntu/upstart-session/1000/2396
+unix  3      [ ]         STREAM     CONNECTED     26858    9940/cupsd          
+unix  3      [ ]         STREAM     CONNECTED     18516    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  2      [ ]         DGRAM                    9178     793/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     16522    2787/compiz         
+unix  2      [ ]         DGRAM                    15987    2835/udisksd        
+unix  3      [ ]         STREAM     CONNECTED     16270    2882/gvfsd-burn     
+unix  3      [ ]         STREAM     CONNECTED     12024    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16533    2897/gvfsd-trash    @/dbus-vfs-daemon/socket-yDFWlcDr
+unix  3      [ ]         STREAM     CONNECTED     16271    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     18513    3864/gnome-terminal 
+unix  3      [ ]         STREAM     CONNECTED     16695    2965/telepathy-indi 
+unix  3      [ ]         STREAM     CONNECTED     15200    2393/gnome-keyring- /run/user/1000/keyring-rzHQya/pkcs11
+unix  3      [ ]         STREAM     CONNECTED     15076    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15030    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     9579     948/avahi-daemon: r 
+unix  3      [ ]         STREAM     CONNECTED     14573    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16524    2787/compiz         
+unix  3      [ ]         STREAM     CONNECTED     15985    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     14451    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16053    2859/gvfs-afc-volum 
+unix  3      [ ]         STREAM     CONNECTED     15464    2555/unity-settings 
+unix  3      [ ]         STREAM     CONNECTED     14309    2494/upstart-dbus-b 
+unix  3      [ ]         STREAM     CONNECTED     14874    2570/unity-panel-se 
+unix  3      [ ]         STREAM     CONNECTED     16175    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     14545    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16697    2965/telepathy-indi 
+unix  3      [ ]         STREAM     CONNECTED     9066     1/init              @/com/ubuntu/upstart
+unix  3      [ ]         STREAM     CONNECTED     16529    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     18511    3864/gnome-terminal 
+unix  3      [ ]         STREAM     CONNECTED     15020    2566/gnome-session  
+unix  3      [ ]         STREAM     CONNECTED     14294    2492/upstart-file-b 
+unix  3      [ ]         STREAM     CONNECTED     16797    2987/zeitgeist-data 
+unix  3      [ ]         STREAM     CONNECTED     15456    2767/dconf-service  
+unix  3      [ ]         STREAM     CONNECTED     14571    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     14551    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     14238    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16018    2801/nautilus       
+unix  3      [ ]         STREAM     CONNECTED     15825    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     14371    2502/gvfsd          
+unix  3      [ ]         DGRAM                    8259     470/systemd-udevd   
+unix  3      [ ]         STREAM     CONNECTED     16084    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16708    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15913    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16713    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     13842    1132/cups-browsed   
+unix  3      [ ]         STREAM     CONNECTED     9179     793/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     14533    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     15989    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16031    2850/gconfd-2       
+unix  3      [ ]         STREAM     CONNECTED     15993    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     15279    2694/pulseaudio     /run/user/1000/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     15209    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  2      [ ]         DGRAM                    11025    1170/NetworkManager 
+unix  3      [ ]         STREAM     CONNECTED     14989    2570/unity-panel-se 
+unix  3      [ ]         STREAM     CONNECTED     14275    2396/init           @/com/ubuntu/upstart-session/1000/2396
+unix  3      [ ]         STREAM     CONNECTED     16082    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14491    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16080    2560/hud-service    
+unix  3      [ ]         STREAM     CONNECTED     16716    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15220    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     14990    2536/dbus-daemon    @/tmp/dbus-gTxzXWpGSW
+unix  3      [ ]         STREAM     CONNECTED     14490    2516/ibus-ui-gtk3   
+unix  3      [ ]         STREAM     CONNECTED     18518    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  2      [ ]         DGRAM                    14335    2393/gnome-keyring- 
+unix  3      [ ]         STREAM     CONNECTED     9199     1/init              
+unix  3      [ ]         STREAM     CONNECTED     26859    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14270    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15223    2657/indicator-date 
+unix  3      [ ]         STREAM     CONNECTED     14581    2518/ibus-x11       
+unix  3      [ ]         STREAM     CONNECTED     16503    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     15822    2805/unity-fallback 
+unix  3      [ ]         STREAM     CONNECTED     14641    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     14548    2540/at-spi2-regist 
+unix  3      [ ]         STREAM     CONNECTED     17128    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16722    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     9545     951/avahi-daemon: c 
+unix  3      [ ]         STREAM     CONNECTED     15067    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15285    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     9200     793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16510    1734/X              @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     15824    2805/unity-fallback 
+unix  3      [ ]         STREAM     CONNECTED     14640    2555/unity-settings 
+unix  3      [ ]         STREAM     CONNECTED     14364    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16062    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16032    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16077    2560/hud-service    
+unix  2      [ ]         STREAM     CONNECTED     17955    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     17132    2458/dbus-daemon    @/tmp/dbus-yjwANkdzfT
+unix  3      [ ]         STREAM     CONNECTED     16535    2801/nautilus       
+unix  3      [ ]         STREAM     CONNECTED     16528    2787/compiz         
+unix  2      [ ]         DGRAM                    13269    2025/rtkit-daemon   
+unix  3      [ ]         STREAM     CONNECTED     18515    3864/gnome-terminal 
+unix  3      [ ]         STREAM     CONNECTED     14322    2396/init           @/com/ubuntu/upstart-session/1000/2396
+unix  3      [ ]         STREAM     CONNECTED     14546    2540/at-spi2-regist 
+unix  3      [ ]         STREAM     CONNECTED     16061    2560/hud-service    
+unix  3      [ ]         STREAM     CONNECTED     15827    2805/unity-fallback 
+unix  3      [ ]         STREAM     CONNECTED     15264    2694/pulseaudio     
+unix  3      [ ]         STREAM     CONNECTED     15211    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    11448    1503/dhclient       
+unix  3      [ ]         STREAM     CONNECTED     16079    2560/hud-service    
+unix  3      [ ]         STREAM     CONNECTED     15100    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14454    2477/ibus-daemon    @/tmp/dbus-R8JVHuIe
+unix  3      [ ]         STREAM     CONNECTED     17131    3101/sublime_text   
+unix  3      [ ]         STREAM     CONNECTED     16064    2864/gvfs-gphoto2-v 
+unix  3      [ ]         STREAM     CONNECTED     13271    793/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     18517    3864/gnome-terminal 

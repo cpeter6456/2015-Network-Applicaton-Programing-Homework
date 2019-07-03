@@ -1,0 +1,47 @@
+
+/********************************************************************************************************/
+Network Applications Programming‐Homework 4
+
+BONUS:Concurrent TCP‐based FTP service
+
+One	FTP	server	and	two	FTP	clients	should	be	deployed.	
+One	client will upload a file while	another client will download a file
+
+Student ID : B013040033
+StarTime : 5/22 9:00 pm
+
+DeadLine : 5/27
+
+Change Homework 4 to Complete it (is simulate)
+
+How To Run :
+	Run Server it will wait Client , then run Client and Input IP address (Port is 7777 at default)
+Server wil show coming Client IP and port,Client can type d(download) or u(upload) or q(quit),
+
+How To Write:
+
+//solution of Bind:Address already in use , just reuse it
+setsockopt(SockDescriptor, SOL_SOCKET, SO_REUSEADDR, &reuse_addr, reuse_addr_len);
+
+To know File Size:
+use :
+	if(fseek(FilePtr, 0, SEEK_END)!=0){perror("fseek1");exit(1);}
+	//IMPORTANT : ftell should use in binary mode
+	int CliTotalFileSize = ftell(FilePtr);
+	if(CliTotalFileSize < 0){perror("ftell");exit(1);}
+	//seek back to the beginning
+	if(fseek(FilePtr, 0, SEEK_SET)!=0){perror("fseek2");exit(1);}
+
+
+
+Use multiple processes (foek()) , and switch to select parent or child
+
+Have two Packet structure :FileSelectPacket , FilePacket
+
+FileSelectPacket is use to ask want to Download,Upload,FileName etc...
+FilePacket have DataBuf to store File Data , and send it
+
+
+
+
+/********************************************************************************************************/
